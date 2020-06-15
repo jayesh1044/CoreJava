@@ -24,7 +24,7 @@ public class CollectionDemo {
 		Map<Integer,Integer> lhm = new LinkedHashMap<Integer,Integer>();
 		//TreeHashMap
 		SortedMap<Integer,Integer> tm = new TreeMap<Integer,Integer>();
-		
+		//Custom Class objects
 		List<Student> customAl = new ArrayList<Student>();
 		Student s;
 		s = new Student("Ram", 1);
