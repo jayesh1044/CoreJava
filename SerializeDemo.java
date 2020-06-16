@@ -28,9 +28,10 @@ public class SerializeDemo{
 			fos.close();
 			
 		} catch (IOException e) {
-			// TODO: handle exception
+			System.out.println(e.getMessage());
 		}
 		
+		//Deserialization
 		try {
 			FileInputStream fis = new FileInputStream("student.txt");
 			ObjectInputStream ois = new ObjectInputStream(fis);
@@ -45,11 +46,11 @@ public class SerializeDemo{
 		}
 		catch(IOException e)
 		{
-			
+			System.out.println(e.getMessage());
 		}
 		catch(ClassNotFoundException e)
 		{
-			
+			System.out.println(e.getMessage());
 		}
 		
 		
